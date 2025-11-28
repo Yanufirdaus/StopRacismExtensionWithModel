@@ -15,9 +15,9 @@
 
     "permissions": [
       "activeTab",
-      "http://127.0.0.1:5000/predict",
-      "https://ddb7b3cd-5000.asse.devtunnels.ms/predict",
-      "https://ddb7b3cd-3000.asse.devtunnels.ms/"
+      "API URL",
+      "API URL",
+      "link to about us"
     ],
     
     "content_scripts": [
