@@ -92,7 +92,7 @@ floatingButton.innerHTML = `<img src="${markLogo}" alt="logo" style="width:24px;
 floatingButton2.innerHTML = `<img src="${censorLogo}" alt="logo" style="width:32px; height:32px;">`;
 floatingButton4.innerHTML = `<img src="${infoLogo}" alt="logo" style="width:24px; height:24px;">`;
 
-const apiUrl = 'https://ddb7b3cd-5000.asse.devtunnels.ms/predict'
+const apiUrl = 'API URL'
 
 
 
@@ -374,6 +374,6 @@ floatingButton3.addEventListener('click', () => {
 });
 
 floatingButton4.addEventListener('click', () => {
-    window.open('https://ddb7b3cd-3000.asse.devtunnels.ms/', '_blank');
+    window.open('link to about us', '_blank');
 });
 
