@@ -1,0 +1,9 @@
+var gotoSpan = document.querySelectorAll('div section main div div div');
+var stageOne = gotoSpan[2];
+var gotoSpan2 = stageOne.querySelectorAll('div');
+var stageTwo = gotoSpan2[2];
+var gotoSpan3 = stageTwo.querySelectorAll('div div div div div');
+var stageTri = gotoSpan3[2];
+var gotoSpan4 = stageTri.querySelectorAll('div div div');
+var stageFour = gotoSpan4[2];
+var finalSpan = stageFour.querySelectorAll('span');

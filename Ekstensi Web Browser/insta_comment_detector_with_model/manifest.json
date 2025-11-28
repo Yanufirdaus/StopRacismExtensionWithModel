@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+    "name": "Instagram Comment Highlighter",
+    "version": "1.0",
+
+    "description": "Colors all comments on Instagram posts.",
+    
+    "web_accessible_resources": [
+      "logo.png",
+      "mark.png",
+      "censor.png",
+      "info.png",
+      "loading.gif"
+    ],
+
+    "permissions": [
+      "activeTab",
+      "http://127.0.0.1:5000/predict",
+      "https://ddb7b3cd-5000.asse.devtunnels.ms/predict",
+      "https://ddb7b3cd-3000.asse.devtunnels.ms/"
+    ],
+    
+    "content_scripts": [
+      {
+        "matches": ["*://*.instagram.com/p/*", "*://*.instagram.com/reel/*"],
+        "js": ["app.js"],
+        "css": ["style.css"],
+        "run_at": "document_end"
+      }
+    ],
+    
+    "icons": {
+      "48": "icons/icon.png"
+    }
+  }
+  
